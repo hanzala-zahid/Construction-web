@@ -1,0 +1,688 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* start-nav start */
+.start-nav {
+  background-color: #ffb400;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.hello span {
+  font-weight: bold;
+}
+.hello {
+  margin: 0.5rem;
+  margin-left: 5rem;
+  width: 260px;
+  padding: 0.5rem 0.5rem;
+}
+.number {
+  display: flex;
+  width: 140px;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: -18rem;
+}
+.number p {
+  margin: auto 0.2rem;
+}
+.number:hover {
+  background-color: #ffcc53;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-bottom: 0;
+  transition: 0.3s;
+}
+.number img {
+  width: 18px;
+}
+.mail {
+  display: flex;
+  width: 217px;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-left: -17rem;
+}
+.mail img {
+  width: 30px;
+  height: 23px;
+}
+.mail p {
+  margin: auto 0.2rem;
+}
+.mail:hover {
+  background-color: #ffcc53;
+  border: 1px solid white;
+  border-top: 3px solid white;
+  border-bottom: 0;
+  transition: 0.3s;
+}
+.social-media-icons {
+  display: flex;
+  width: 211px;
+  justify-content: space-between;
+
+  padding: 0.5rem;
+  padding-right: 5rem;
+  cursor: pointer;
+}
+/* start-nav end */
+
+/* navbar starts */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  margin: 2rem;
+  margin-left: 5.5rem;
+  cursor: pointer;
+}
+.links {
+  width: 34rem;
+  align-items: center;
+  margin-right: -10rem;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.search-icons {
+  display: flex;
+  width: 4rem;
+  justify-content: space-between;
+
+  padding: 0.5rem;
+  padding-right: 5rem;
+  cursor: pointer;
+}
+.search-icons img {
+  width: 22px;
+}
+.links ul li a:hover {
+  font-weight: bold;
+  padding-bottom: 3px;
+  border: 2px solid #ffb400;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: 0.3s;
+}
+
+/* navbar ends */
+
+/* hero section starts */
+
+.hero-container {
+  background-color: #1c2239;
+  display: flex;
+  height: 35rem;
+}
+.white-box {
+  background-color: white;
+  width: 18rem;
+  height: 20rem;
+  margin-left: 46rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.start {
+  color: #ffb400;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 12px;
+}
+.white-box h1 {
+  margin-left: 2rem;
+  color: #1c2239;
+}
+.white-box p {
+  margin-left: 2rem;
+  font-size: 12px;
+  line-height: 20px;
+}
+.white-box button {
+  margin-top: 15px;
+  background-color: #ffb400;
+  color: white;
+  border: none;
+  margin-left: 2rem;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.white-box button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.white-box button img {
+  margin-right: 5px;
+}
+
+/* hero section ends */
+
+/* building section starts */
+
+.bulding-section {
+  background-color: #ffb400;
+  display: flex;
+  width: 100%;
+}
+.bulding-section p {
+  margin: 2.5rem;
+  margin-left: 5rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.bulding-section .btn {
+  display: flex;
+  align-items: center;
+  margin-left: 17rem;
+}
+.bulding-section .btn button {
+  background-color: #1c2239;
+  color: white;
+  border: none;
+  padding: 8px 11px;
+  cursor: pointer;
+}
+.bulding-section .btn button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* building section ends */
+
+/* portfolio blocks starts */
+.port-container {
+  width: 77rem;
+  margin: auto;
+  margin-top: 6rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+.port-container .office-buildings {
+  height: 7.5rem;
+  width: 7.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 0.2rem;
+  margin-bottom: 25rem;
+  text-align: center;
+  background-color: #f4f7f9;
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+.port-container .office-buildings:hover {
+  background-color: #ffb400;
+  color: white;
+  transition: 0.3s;
+}
+
+/* portfolio blocks ends */
+
+/* price section starts */
+
+.price-container {
+  width: 50rem;
+  margin: auto;
+}
+.price-container h1 {
+  text-align: center;
+}
+.price-container p {
+  line-height: 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(87, 86, 86);
+}
+.price-container .line {
+  border: 1px solid black;
+  width: 4rem;
+  margin: 2rem auto;
+  /* margin: auto; */
+}
+.price-container .btn-read {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.price-container .btn-read button {
+  background-color: #ffb400;
+  color: white;
+  border: none;
+  padding: 11px 25px;
+  cursor: pointer;
+}
+.price-container .btn-read button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* price section ends */
+
+/* portfolio section starts */
+.portfolio-container {
+  background-color: #1c2239;
+  padding-top: 4rem;
+}
+.portfolio-container .head h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+.portfolio-container p {
+  text-align: center;
+  color: #ffb400;
+  margin-top: 0.5rem;
+}
+.portfolio-container .strait-line {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.portfolio-container .strait-line .border {
+  height: 1rem;
+  border: 1px solid #ffb400;
+}
+.portfolio-container .links {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.portfolio-container .links ul li a {
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.portfolio-container .links ul li:hover {
+  font-weight: bold;
+  padding-bottom: 3px;
+  border: 2px solid #ffb400;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  transition: 0.3s;
+}
+.blocks {
+  margin-top: 5rem;
+  display: flex;
+}
+.yellow {
+  height: 20rem;
+  width: 20rem;
+  background-color: #ffb400;
+}
+.blue {
+  height: 20rem;
+  width: 20rem;
+  background-color: #1c2239;
+}
+/* portfolio section ends */
+
+/* services container starts */
+
+.services-container {
+  padding-top: 4rem;
+}
+
+.services-container .head h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #1c2239;
+}
+.services-container p {
+  text-align: center;
+  color: rgb(87, 86, 86);
+  margin-top: 0.5rem;
+}
+.services-container .strait-line {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.services-container .strait-line .border {
+  height: 1.5rem;
+  border: 1px solid #ffb400;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 33rem 23rem 23rem;
+  grid-template-rows: 19rem 0rem 0rem;
+}
+.blocking-elements {
+  width: 350px;
+  height: 170px;
+  margin: auto;
+}
+.grid .blocking-elements .a1 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a1 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a1 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+.grid .blocking-elements p {
+  text-align: left;
+  margin-top: 1.5rem;
+  line-height: 1.4rem;
+}
+.grid .blocking-elements button {
+  background: none;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.grid .blocking-elements button img {
+  display: none;
+}
+.grid .blocking-elements button:hover {
+  font-weight: bold;
+  color: #ffb400;
+}
+.grid .blocking-elements .a2 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a2 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a2 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+.grid .blocking-elements .a3 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a3 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a3 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+.grid .blocking-elements .a4 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a4 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a4 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+.grid .blocking-elements .a5 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a5 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a5 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+.grid .blocking-elements .a6 {
+  display: flex;
+  align-items: center;
+}
+.grid .blocking-elements .a6 h3 {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.grid .blocking-elements .a6 h3:hover {
+  color: #ffb400;
+  transition: 0.3s;
+}
+
+/* services container ends */
+/* customer section starts */
+.customer-container {
+  background-color: #1c2239;
+  margin-top: 15rem;
+  padding-top: 4rem;
+}
+
+.customer-container .circle .cir {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 2.5rem auto;
+}
+.customer-container p {
+  text-align: center;
+  color: white;
+  line-height: 1.5rem;
+  width: 60rem;
+  margin: auto;
+}
+.customer-container h3 {
+  color: #ffb400;
+  margin: 2rem auto;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.customer-container h5 {
+  color: #bebebe;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  text-align: center;
+}
+
+/* customer section ends */
+/* why chose us section starts */
+
+.chose-container {
+  background-color: #f4f7f9;
+}
+.chose-container .chose-header h1 {
+  text-align: center;
+  padding-top: 7rem;
+}
+.chose-container .chose-header h5 {
+  text-align: center;
+  padding-top: 0.5rem;
+  color: #868686;
+}
+.chose-container .main-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.chose-container .main-about .about {
+  margin: 2rem;
+}
+.chose-container .main-about .about .-box {
+  height: 10rem;
+  width: 16rem;
+  background-color: #ffb400;
+}
+.chose-container .main-about .about h2 {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+.chose-container .main-about .about p {
+  text-align: left;
+  width: 18rem;
+  margin-top: 1rem;
+  line-height: 1.3rem;
+}
+.chose-container .main-about .about button {
+  background-color: #ffb400;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.chose-container .main-about .about button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+/* why chose us section ends */
+/* second last footer starts */
+
+.nd-footer {
+  margin-top: 5rem;
+  background-color: #ffb400;
+  display: grid;
+  place-content: center;
+}
+.nd-footer p {
+  font-weight: bold;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.nd-footer p span {
+  font-weight: bold;
+  color: #1c2239;
+}
+/* second last footer ends */
+/* footer section starts */
+
+.footer-container {
+  background-color: #1c2239;
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container .usefull {
+  margin-top: -8rem;
+}
+.footer-container .usefull h2 {
+  color: white;
+}
+.footer-container .usefull .dash {
+  border: 2px solid #ffb400;
+  width: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.footer-container .usefull ul li {
+  padding-top: 1rem;
+}
+.footer-container .usefull ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-container .usefull ul li a:hover {
+  color: #ffb400;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-color: #1c2239;
+  display: flex;
+}
+.footer-container .touch {
+  margin-top: -2rem;
+  margin-left: 10rem;
+}
+.footer-container .touch h2 {
+  color: white;
+}
+.footer-container .touch .dash {
+  border: 2px solid #ffb400;
+  width: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.footer-container .touch .contactus h3 {
+  text-align: left;
+  color: white;
+}
+.footer-container .touch p {
+  text-align: left;
+  color: rgb(180, 180, 180);
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.footer-container .touch .contactus {
+  display: flex;
+  width: 5rem;
+  justify-content: space-between;
+  text-align: left;
+}
+.footer-container .posts {
+  margin-top: -7rem;
+  margin-left: 7rem;
+}
+.footer-container .posts h2 {
+  color: white;
+}
+.footer-container .posts .dash {
+  border: 2px solid #ffb400;
+  width: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.footer-container .posts .box {
+  height: 10rem;
+  width: 15rem;
+  background-color: #ffb400;
+}
+.footer-container .posts p {
+  text-align: left;
+  color: #bebebe;
+  margin-top: 1rem;
+}
+.footer-container .posts h4 {
+  text-align: left;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+/* footer section ends */
+.last {
+  background-color: #03050d;
+  display: flex;
+  border-top: 1px solid rgb(139, 139, 139);
+}
+.last img {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.last p {
+  margin: auto 28rem;
+  margin-right: 0;
+}
